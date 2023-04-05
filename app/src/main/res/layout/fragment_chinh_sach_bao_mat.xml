@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:companyApp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.fragDifferent.FragmentHelp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/background_container"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_DanhMuc"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            companyApp:titleTextAppearance="@style/ActionBar.nameText">
+
+            <ImageView
+                android:id="@+id/btn_backBaoMat"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_baseline_arrow_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Chính sách bảo mật"
+                android:textColor="@color/white"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+    <WebView
+        android:id="@+id/webView_baoMat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/boder_item_voucher_horizontal"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:gravity="start"
+        android:paddingLeft="-5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/bgitemvoucher" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_tieuDeVoucher"
+        android:layout_width="0dp"
+        android:layout_weight="1.3"
+        android:gravity="center|start"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Giảm 10% cho mọi máy"
+        android:textColor="@color/black" />
+</LinearLayout>

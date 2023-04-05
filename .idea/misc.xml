@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/drawable/selector_home.xml" value="0.2265" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/dialog_conditions.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/dialog_hen_trochoi.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/dialog_hengiochoi.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment__edit_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment_booking_history.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment_hen_tro_choi_gio.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment_hen_tro_choi_luot.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment_login.xml" value="0.12158054711246201" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment_notify.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment_regesiter.xml" value="0.6477272727272727" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment_tro_choi_gio.xml" value="0.2" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment_tro_choi_luot.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment_user.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/fragment_welcome.xml" value="0.9545454545454546" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/item_booking_history.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_Try_Hard/myapplication/app/src/main/res/layout/item_history.xml" value="0.22826086956521738" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable-v24/ic_uudai_selected.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/background_button.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/background_button_corner.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/background_button_no_corner.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/background_container.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/background_input_otp.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/bg_count.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/bg_dialog_choose_voucher.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/bg_dungngay.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/bg_item_giaodich.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/bg_line.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/boder_item_voucher.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/ic_baseline_arrow_back.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/ic_baseline_perm_identity_24.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/ic_baseline_remove_24.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/ic_baseline_remove_red_eye_24px.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/drawable/onclick_dialog_logout.xml" value="0.1" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout-large/fragment_login.xml" value="0.61" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout-normal/fragment_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout-small/fragment_login.xml" value="1.0748898678414096" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout-w320dp/fragment_login.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/dialog_choosevouher_gio.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/dialog_conditions.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/dialog_hen_trochoi.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/dialog_hengiochoi.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/dialog_loading.xml" value="0.24010416666666667" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/dialog_logout.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/dialog_lostconecttion.xml" value="0.14166666666666666" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/dialog_timeup.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment__edit_profile.xml" value="0.2" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment__list_game.xml" value="0.2" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment__list_game_uu_dai.xml" value="0.152" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment__list_voucher_uu_dai.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_fogot_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_hen_tro_choi_gio.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_hen_tro_choi_luot.xml" value="0.152" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_lich_su_giao_dich.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_list_danh_sach_game.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_list_game_danh_sach.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_login.xml" value="0.14166666666666666" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_main.xml" value="0.14166666666666666" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_regesiter.xml" value="0.14166666666666666" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_register_success.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_trangchu.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_tro_choi_gio.xml" value="0.14166666666666666" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_tro_choi_luot.xml" value="0.152" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_user.xml" value="0.14166666666666666" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_uudai.xml" value="0.2" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_verify_phone_numbers.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/fragment_welcome.xml" value="0.14166666666666666" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/game_item_horizontal.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/game_item_vertical.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/item_danh_sach_tro_choi.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/item_game_horizontal.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/item_game_vertical.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/item_history.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/item_notify.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/item_thoigianchoi.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/item_voucher_horizontal.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/item_voucher_vertical.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/item_voucher_vertical2.xml" value="0.136" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/slider_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/toolbar.xml" value="0.16799999999999998" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/layout/voucher_item_vertical.xml" value="0.176" />
+        <entry key="..\:/DA1/myapplication/app/src/main/res/menu/toolbar_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable-v24/ic_account_selected.xml" value="0.2425" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable-v24/ic_home_24px.xml" value="0.2375" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable-v24/ic_home_selected.xml" value="0.178" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2375" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/avaterdefaut.xml" value="0.2425" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/background_button.xml" value="0.3455" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/btnlostconection.xml" value="0.1995" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/btnsaveuser.xml" value="0.215" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/circle.xml" value="0.2375" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/conten_background.xml" value="0.2375" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/gachchan.xml" value="0.2425" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_avatatdefaut.xml" value="0.2425" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.2075" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.3455" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_close_48.xml" value="0.178" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2075" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.3455" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.178" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.178" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_perm_identity_24.xml" value="0.178" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_perm_identity_48.xml" value="0.178" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.2375" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.178" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.178" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_baseline_visibility_off_48.xml" value="0.178" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_help.xml" value="0.2425" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_history.xml" value="0.2425" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_home.xml" value="0.2375" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_info.xml" value="0.215" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2375" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_notify.xml" value="0.2425" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_notifytion.xml" value="0.2425" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_pencil.xml" value="0.261" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_user.xml" value="0.2375" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/ic_uudai.xml" value="0.2375" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/drawable/selector_home.xml" value="0.1995" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-large/fragment_trangchu.xml" value="0.275" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-large/fragment_user.xml" value="0.15505464480874318" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-long/fragment_trangchu.xml" value="0.275" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-long/fragment_user.xml" value="0.15505464480874318" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-normal/fragment_trangchu.xml" value="0.88" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-normal/fragment_user.xml" value="0.4503968253968254" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-small/fragment_trangchu.xml" value="0.9895397489539749" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-small/fragment_user.xml" value="0.47489539748953974" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-w411dp/fragment_trangchu.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-w411dp/fragment_user.xml" value="0.2056159420289855" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-xlarge/fragment_trangchu.xml" value="0.275" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout-xlarge/fragment_user.xml" value="0.15505464480874318" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/activity_main.xml" value="0.3619791666666667" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/dialog_choosevouher_gio.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/dialog_conditions.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/dialog_huy_booking.xml" value="0.358695652173913" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/dialog_loading.xml" value="0.14351851851851852" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/dialog_lostconecttion.xml" value="0.33" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment__edit_profile.xml" value="0.31657608695652173" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment__editprofile.xml" value="0.33" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment__login.xml" value="0.3609375" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment__mybooking_history.xml" value="0.25" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment__q_rcode.xml" value="0.358695652173913" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_fogot_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_list_danh_sach_game.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_list_game_danh_sach.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_main.xml" value="0.3619791666666667" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_nap_tien.xml" value="0.358695652173913" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_notify.xml" value="0.358695652173913" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_regesiter.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_register_success.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_splast_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_trangchu.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_tro_choi_luot.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_user.xml" value="0.33" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_uudai.xml" value="0.3619791666666667" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_verify_phone_numbers.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/fragment_welcome.xml" value="0.36666666666666664" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/item_booking_history.xml" value="0.25" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/item_history.xml" value="0.358695652173913" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/layout/item_my_booking_history.xml" value="0.358695652173913" />
+        <entry key="..\:/duan1/New folder/myapplication/app/src/main/res/menu/toolbar_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

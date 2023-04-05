@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    xmlns:companyApp="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.fragmentTypeGame.fragmentHenTroChoiLuot">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_container">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_DanhMuc"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                companyApp:titleTextAppearance="@style/ActionBar.nameText">
+
+                <ImageView
+                    android:id="@+id/btn_backToDSGame"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_arrow_back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Thông tin trò chơi"
+                    android:textColor="@color/white"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9.2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="5dp">
+
+                    <ImageView
+                        android:id="@+id/imgGame"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/white"
+                        android:padding="20dp"
+                        android:src="@drawable/ic_jumping" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_nameGame_Luot"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:fontFamily="@font/poppins_semi_bold"
+                            android:padding="5dp"
+                            android:text="Nhà ma Đàm Vĩnh Hưng"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/tv_cost_Luot"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:padding="5dp"
+                            android:text="15.000 dong"
+                            android:textColor="@color/orange"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_detailGame_Luot"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_regular"
+                            android:padding="5dp"
+                            android:text="@string/lorem_ipsum"
+                            android:textColor="@color/black"
+                            android:textSize="22dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:padding="8dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="Số lượt chơi:"
+                            android:textColor="@color/black"
+                            android:textSize="24dp" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="end">
+
+                            <ImageButton
+                                android:id="@+id/btn_remove"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.3"
+                                android:backgroundTint="@color/blue_count"
+                                android:src="@drawable/ic_baseline_remove_24" />
+
+                            <TextView
+                                android:id="@+id/tv_count"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginVertical="5dp"
+                                android:layout_weight="0.4"
+                                android:background="@drawable/bg_count"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                android:textSize="24dp" />
+
+                            <ImageButton
+                                android:id="@+id/btn_add"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="0.3"
+                                android:backgroundTint="@color/blue_count"
+                                android:src="@drawable/ic_baseline_add_24" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/choose_voucher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="5dp"
+                        android:background="@drawable/bg_line"
+                        android:paddingHorizontal="5dp"
+                        android:paddingTop="20dp"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:paddingTop="2dp"
+                            android:src="@drawable/ic_voucher_24px" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+
+                            android:text="YahhHome Voucher"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/tv_voucherChoose"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="right|center"
+                            android:text="Chọn voucher"
+                            android:textColor="@color/gray"
+                            android:textSize="17sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_baseline_navigate_next_24" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/layout_historyBook"
+                        android:layout_width="match_parent"
+                        android:background="@color/white"
+                        android:layout_marginVertical="10dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:paddingTop="2dp"
+                            android:src="@drawable/ic_baseline_history_24" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:gravity="center|start"
+                            android:paddingStart="5dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/c_c_khung_gi_t"
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:paddingStart="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.9"
+                        android:text="Tổng thanh toán"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_totalCost"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.1"
+                        android:text=""
+                        android:textColor="@color/orange"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_henGio"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_button_no_corner"
+                    android:text="Đặt lịch"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">YahhHome</string>
+    <string name="nhap_usser">Nhập tên đăng nhập</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_Home">Trang chủ</string>
+    <string name="nav_Account">Cá nhân</string>
+    <string name="rememberAccount">Nhớ tài khoản</string>
+    <string name="fogotPassword">Quên mật khẩu?</string>
+    <string name="nav_Endow">Ưu đãi</string>
+    <string name="toolbar_search">Tìm kiếm</string>
+    <string name="Login">Đăng nhập</string>
+    <string name="Sign_up">Đăng ký</string>
+    <string name="Verify">Xác minh</string>
+    <string name="Continue">Tiếp tục</string>
+    <string name="Reset_password">Đặt lại mật khẩu</string>
+    <string name="Verify_phone_number">Xác minh số điện thoại</string>
+    <string name="Verify_phone_number_notify">Nhập mã xác minh</string>
+    <string name="Terms_and_conditions">PH27731 - Trịnh Đức Hùng\nPH27738 - Nguyễn Minh Giang\nPH28077 - Vũ Viết Khanh\nPh27525 - Nguyễn Quốc Khánh\nPH27512 - Trịnh Công Điền</string>
+    <string name="danhmuctrochoi">Danh mục</string>
+    <string name="danhsachgamevoucher">Danh sách trò chơi</string>
+    <string name="voucher">Chi tiết ưu đãi</string>
+    <string name="thongtingame">Thông tin trò chơi</string>
+    <string name="help">Trợ giúp &amp; yêu cầu hỗ trợ</string>
+    <string name="backPressed">Nhấn back 1 lần nữa để thoát</string>
+    <string name="channel_name">YahhHome1</string>
+    <string name="channel_description">YahhHome2</string>
+    <string name="lorem_ipsum">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat sit perferendis libero quisquam ad, blanditiis ullam, unde atque non facere iure, quod debitis nemo labore veritatis ut. Vitae, quam voluptatem?</string>
+    <string name="ch_ng_t_i_c_th_h_tr_b_n_b_ng_c_ch_g_i_cho_b_n_m_t_m_x_c_nh_n_t_l_i_m_t_kh_u">Chúng tôi có thể hỗ trợ bạn bằng cách gửi cho bạn một mã xác nhận để đặt lại mật khẩu.</string>
+    <string name="yahhhome_voucher">YahhHome Voucher</string>
+    <string name="yahhhome_game">YahhHome Game</string>
+    <string name="gi">Giờ</string>
+    <string name="ph_t">Phút</string>
+    <string name="ch_t_l_ch">Chốt lịch</string>
+    <string name="ng_xu_t_kh_i_t_i_kho_n_c_a_b_n">Đăng xuất khỏi tài khoản của bạn?</string>
+    <string name="h_y">Hủy</string>
+    <string name="ng_xu_t">Đăng xuất</string>
+    <string name="m_t_k_t_n_i_m_ng_r_i">Mất kết nối mạng rồi...</string>
+    <string name="ki_m_tra_k_t_n_i_m_ng_r_i_th_l_i_nh">Kiểm tra kết nối mạng rồi thử lại nhé.</string>
+    <string name="th_l_i">Thử lại</string>
+    <string name="th_i_gian_c_n_l_i">THỜI GIAN CÒN LẠI</string>
+    <string name="c_c_khung_gi_t">Các khung giờ đã đặt</string>
+</resources>

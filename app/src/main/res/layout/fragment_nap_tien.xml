@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:companyApp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".Fragment.fragDifferent.FragmentNapTien">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="@drawable/background_container"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_DanhMuc"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            companyApp:titleTextAppearance="@style/ActionBar.nameText">
+
+            <ImageView
+                android:id="@+id/btn_backNapTien"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_baseline_arrow_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Nạp tiền"
+                android:textColor="@color/white"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.2"
+        android:background="@color/item_game"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="5dp"
+        android:weightSum="6">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_tien_nap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@color/white"
+                android:hint="Nhập số tiền bạn muốn nạp"
+                android:inputType="number"
+                android:maxLength="7"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.3"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:weightSum="3.2">
+            <!--            hang1-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_weight="0.2"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:paddingTop="3dp"
+                android:text="Hoặc chọn mệnh giá"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.51"
+                android:background="@color/white"
+
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <!--20.000vnd-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_item_menh_gia"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:paddingTop="3dp"
+                    android:text="20,000"
+                    android:textColor="@color/blue_900"
+                    android:textSize="18sp" />
+                <!--30.000-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_item_menh_gia"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:paddingTop="3dp"
+                    android:text="30,000"
+                    android:textColor="@color/blue_900"
+                    android:textSize="18sp" />
+                <!--50.000-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_50"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_item_menh_gia"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:paddingTop="3dp"
+                    android:text="50,000"
+                    android:textColor="@color/blue_900"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <!--hang 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="0.5"
+                android:background="@color/white"
+
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <!--100.000vnd-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_100"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_item_menh_gia"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:paddingTop="3dp"
+                    android:text="100,000"
+                    android:textColor="@color/blue_900"
+                    android:textSize="18sp" />
+                <!--200.000-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_200"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_item_menh_gia"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:paddingTop="3dp"
+                    android:text="200,000"
+                    android:textColor="@color/blue_900"
+                    android:textSize="18sp" />
+                <!--500.000-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_500"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_item_menh_gia"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:paddingTop="3dp"
+                    android:text="500,000"
+                    android:textColor="@color/blue_900"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.52"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <!--100.000vnd-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_1000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_item_menh_gia"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:paddingTop="3dp"
+                    android:text="1,000,000"
+                    android:textColor="@color/blue_900"
+                    android:textSize="18sp" />
+                <!--2.000.000-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_2000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_item_menh_gia"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:paddingTop="3dp"
+                    android:text="2,000,000"
+                    android:textColor="@color/blue_900"
+                    android:textSize="18sp" />
+                <!--5.000.000-->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_5000"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_item_menh_gia"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:paddingTop="3dp"
+                    android:text="5,000,000"
+                    android:textColor="@color/blue_900"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_nap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/background_button_corner"
+                android:text="Nạp tiền"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+
+                    android:src="@drawable/ic_baseline_local_phone_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingTop="3dp"
+                    android:text="1900999877"
+                    android:textColor="@color/blue_900"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_baseline_mail_outline_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingTop="3dp"
+                    android:text="nhom2@duan1.fpolyhn"
+                    android:textColor="@color/blue_900"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

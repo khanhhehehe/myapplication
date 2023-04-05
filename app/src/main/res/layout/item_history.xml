@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:weightSum="5.3"
+    android:id="@+id/item_history"
+    android:padding="5dp"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_item_giaodich">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/img_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_remove_circle_24" />
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="18dp"
+            android:id="@+id/tv_loai_gd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chơi game: Đu Quay"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tv_ngay_gd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Ngày: 22/12/2022"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textStyle="bold"
+        android:layout_weight="2.3"
+        android:id="@+id/tv_gia_tien"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:text="-100.000 p"
+        android:textColor="@color/black" />
+</LinearLayout>

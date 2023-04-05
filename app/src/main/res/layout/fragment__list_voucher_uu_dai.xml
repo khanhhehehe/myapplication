@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:companyApp="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.fragListgameAndVoudcher.Fragment_ListVoucherUuDai">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_container">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                companyApp:titleTextAppearance="@style/ActionBar.nameText">
+
+                <ImageView
+                    android:id="@+id/btn_BackToUuDai_fragVoucher"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_arrow_back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/voucher"
+                    android:textColor="@color/white"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/btn_search_fragVoucher"
+                    android:src="@drawable/ic_baseline_search_24"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView_listVoucherUuDai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="1000dp"
+            app:queryHint="Tìm kiếm mã ưu đãi"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_voucher_ListGame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="#F5F5F5"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

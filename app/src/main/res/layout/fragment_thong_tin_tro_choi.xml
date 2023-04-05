@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:companyApp="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.fragDifferent.FragmentThongTinTroChoi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_container">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_DanhSachGame"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            companyApp:titleTextAppearance="@style/ActionBar.nameText">
+
+            <ImageView
+                android:id="@+id/btn_backToDanhSachGame"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_baseline_arrow_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/thongtingame"
+                android:textColor="@color/white"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_jumping"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"/>
+        <TextView
+            android:id="@+id/tv_temGame_frag_thong_tin"
+            android:text="Xúc cát"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:text="Mô tả:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/tv_mo_ta"
+            android:textSize="30dp"
+            android:text="jahdjkahsjkdhjkashdjkahdjkhasjkdhjkahajhdjahsahdjash"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+   <LinearLayout
+       android:layout_marginTop="20dp"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_marginLeft="20dp"
+           android:textSize="20dp"
+           android:text="Trạng Thái: "
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:id="@+id/tv_trang_thai_frag_thong_tin"
+           android:layout_marginLeft="20dp"
+           android:textSize="20dp"
+           android:text="Đang Hoặt Động"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:text="Loại Trò Chơi: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_loa_tro_choi"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:text="Chơi Theo Lượt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:text="Giá Tiền: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_giaTien"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:text="15000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_choi"
+        android:layout_marginTop="20dp"
+        android:text="Chơi"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
